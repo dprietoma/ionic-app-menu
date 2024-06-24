@@ -1,0 +1,17 @@
+ion-item {
+    position: relative; // Para que los elementos hijos se posicionen relativos a este contenedor
+  
+    .superimpose {
+      position: absolute; // Posición absoluta dentro del ion-item
+      top: -12px; // Ajusta según sea necesario
+      left: -148px; // Ajusta según sea necesario
+      z-index: 1; // Para asegurarse de que esté encima del progress bar
+      width: 100%; // Opcional, para que ocupe todo el ancho del ion-item
+      text-align: center; // Opcional, para centrar el texto
+      // background-color: rgba(255, 255, 255, 0.5); // Opcional, para darle un fondo semitransparente
+    }
+  
+    ion-progress-bar {
+      z-index: 0; // Asegura que el progress bar esté debajo del ion-label
+    }
+  }

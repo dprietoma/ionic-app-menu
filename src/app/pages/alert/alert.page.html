@@ -1,0 +1,15 @@
+<app-header titulo="alert"></app-header>
+<ion-content [fullscreen]="true">
+    <ion-button (click)="onClick()" expand="block" >
+      Click me
+    </ion-button>
+
+    <ion-button id="present-alert">Click Me</ion-button>
+<ion-alert
+  trigger="present-alert"
+  header="Alerta version 7"
+  subHeader="A Sub Header Is Optional"
+  message="A message should be a short, complete sentence."
+  [buttons]="alertButtons"
+></ion-alert>
+</ion-content>

@@ -1,2 +1,72 @@
 // For information on how to create your own theme, please see:
 // http://ionicframework.com/docs/theming/
+
+:root {
+    // Youtube
+    --ion-color-youtube: #ff0011;
+    --ion-color-youtube-rgb: 255,0,17;
+    --ion-color-youtube-contrast: #ffffff;
+    --ion-color-youtube-contrast-rgb: 255,255,255;
+    --ion-color-youtube-shade: #e0000f;
+    --ion-color-youtube-tint: #ff1a29;
+
+    //twitter
+    --ion-color-twitter: #00b9ff;
+	--ion-color-twitter-rgb: 0,185,255;
+	--ion-color-twitter-contrast: #ffffff;
+	--ion-color-twitter-contrast-rgb: 0,0,0;
+	--ion-color-twitter-shade: #00a3e0;
+	--ion-color-twitter-tint: #1ac0ff;
+
+    //facebook
+    --ion-color-facebook: #2f55a4;
+	--ion-color-facebook-rgb: 47,85,164;
+	--ion-color-facebook-contrast: #ffffff;
+	--ion-color-facebook-contrast-rgb: 255,255,255;
+	--ion-color-facebook-shade: #294b90;
+	--ion-color-facebook-tint: #4466ad;
+
+    //tiktok
+    --ion-color-titok: #050505;
+	--ion-color-titok-rgb: 5,5,5;
+	--ion-color-titok-contrast: #ffffff;
+	--ion-color-titok-contrast-rgb: 255,255,255;
+	--ion-color-titok-shade: #040404;
+	--ion-color-titok-tint: #1e1e1e;
+}
+
+.ion-color-youtube {
+    --ion-color-base: var(--ion-color-youtube) !important;
+    --ion-color-base-rgb: var(--ion-color-youtube-rgb) !important;
+    --ion-color-contrast: var(--ion-color-youtube-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-youtube-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-youtube-shade) !important;
+    --ion-color-tint: var(--ion-color-youtube-tint) !important;
+}
+
+.ion-color-twitter {
+    --ion-color-base: var(--ion-color-twitter) !important;
+    --ion-color-base-rgb: var(--ion-color-twitter-rgb) !important;
+    --ion-color-contrast: var(--ion-color-twitter-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-twitter-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-twitter-shade) !important;
+    --ion-color-tint: var(--ion-color-twitter-tint) !important;
+}
+
+.ion-color-facebook {
+    --ion-color-base: var(--ion-color-facebook) !important;
+    --ion-color-base-rgb: var(--ion-color-facebook-rgb) !important;
+    --ion-color-contrast: var(--ion-color-facebook-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-facebook-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-facebook-shade) !important;
+    --ion-color-tint: var(--ion-color-facebook-tint) !important;
+}
+
+.ion-color-titok {
+    --ion-color-base: var(--ion-color-titok) !important;
+    --ion-color-base-rgb: var(--ion-color-titok-rgb) !important;
+    --ion-color-contrast: var(--ion-color-titok-contrast) !important;
+    --ion-color-contrast-rgb: var(--ion-color-titok-contrast-rgb) !important;
+    --ion-color-shade: var(--ion-color-titok-shade) !important;
+    --ion-color-tint: var(--ion-color-titok-tint) !important;
+}

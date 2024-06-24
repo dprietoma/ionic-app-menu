@@ -1,0 +1,20 @@
+<app-header titulo="datetime"></app-header>
+
+<ion-content [fullscreen]="true">
+  <ion-list>
+    <ion-list-header>
+      <ion-label>Datos de nacimineto</ion-label>
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Fecha de nacimineto</ion-label>
+    </ion-item>
+    <ion-datetime value="2022-04-21T00:00:00" min="2022-03-01T00:00:00" max="2022-05-31T23:59:59"></ion-datetime>
+
+    <ion-datetime minuteValues="0,15,30,45" dayValues="5,10,15,20,25,30"></ion-datetime>
+
+    <ion-datetime [isDateEnabled]="isWeekday"></ion-datetime>
+  </ion-list>
+
+  
+</ion-content>

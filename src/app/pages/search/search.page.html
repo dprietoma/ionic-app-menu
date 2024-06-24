@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/" color="primary" text="Regresar"></ion-back-button>
+    </ion-buttons>
+    <ion-title>search</ion-title>
+  </ion-toolbar>
+
+  <ion-searchbar
+    placeholder="Busacr album"
+    animated
+    inputmode="text"
+    type="text"
+    (ionChange)="onSearchChange($event)"
+  >
+  </ion-searchbar>
+</ion-header>
+
+<ion-content [fullscreen]="true"> 
+
+  <ion-list>
+    <ion-item *ngFor="let albun of albunes | filtro: textoBuscar:'title'">
+      <ion-label> {{ albun.title }} </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
